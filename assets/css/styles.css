@@ -500,11 +500,12 @@ h1 {
 }
 .instagram-cards ul li {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .instagram-cards ul li img {
   width: 200px;
   object-fit: cover;
+  margin: 0 12px;
 }
 .instagram .container .section-title {
   margin-top: 70px;
