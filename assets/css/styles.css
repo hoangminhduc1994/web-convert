@@ -481,14 +481,61 @@ h1 {
   text-transform: capitalize;
 }
 
+.slider-products {
+  margin-top: 140px;
+}
 
 
 .slider-products-banner {
-  background-color: pink;
+  margin-top: 39px;
+  margin-left: -10px;
+}
+.owl-carousel .owl-stage {
+  max-width: unset;
+}
+.owl-carousel .item {
+  width: 312px;
+  margin: 0 12px;
+}
+.owl-carousel .item .box-content{
+  margin-top: 20px;
+}
+.slider-products-banner .owl-nav{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.slider-products-banner .owl-nav button span{
+color: gray;
+font-size: 70px;
+height: 40px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.slider-products-banner .owl-dots{
+  position: absolute;
+  top:93%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 0%;
+  opacity: 0;
+}
+.slider-products-banner .owl-dots span{
+  width: 20px !important;
+  background-color: black;
+}
+.slider-products-banner .owl-nav .dot{
+  width: 0px;
+  height: 0px;
 }
 /* instagram */
 .instagram {
-  margin-top: 462px;
+  margin-top: 140px;
   background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
 }
 .instagram .container {
